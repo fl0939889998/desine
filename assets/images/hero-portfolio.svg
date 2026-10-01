@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<defs><filter id="s" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000" flood-opacity="0.24"/></filter><linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#111827"/><stop offset="100%" stop-color="#312e81"/></linearGradient><linearGradient id="vio" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient></defs><rect width="1600" height="1000" rx="0" fill="#0a0a0e"/>
+<circle cx="1180" cy="180" r="300" fill="#7c3aed" opacity=".14"/>
+<circle cx="360" cy="800" r="250" fill="#06b6d4" opacity=".10"/>
+<g transform="translate(170 120) rotate(-7 320 360)">
+  <rect width="600" height="760" rx="36" fill="#f8fafc"/>
+  <rect x="34" y="34" width="532" height="110" rx="26" fill="#eef2ff"/>
+  <text x="70" y="85" fill="#111827" font-family="Inter,Arial" font-size="24" font-weight="800">MARKETPLACE</text>
+  <text x="70" y="120" fill="#64748b" font-family="Inter,Arial" font-size="14">product card / conversion system</text>
+  <rect x="60" y="186" width="480" height="290" rx="28" fill="#e0e7ff"/>
+  <circle cx="300" cy="330" r="102" fill="#111827"/><circle cx="300" cy="330" r="73" fill="#334155"/><circle cx="300" cy="330" r="12" fill="#a78bfa"/>
+  <text x="70" y="560" fill="#111827" font-family="Inter,Arial" font-size="52" font-weight="800">20 W</text>
+  <text x="70" y="592" fill="#64748b" font-family="Inter,Arial" font-size="14">power / USB-C / 12h</text>
+  <rect x="60" y="650" width="480" height="68" rx="20" fill="#111827"/><text x="300" y="693" fill="#fff" font-family="Inter,Arial" font-size="18" font-weight="800" text-anchor="middle">BUY NOW ↗</text>
+</g>
+<g transform="translate(660 80) rotate(5 280 360)">
+  <rect width="560" height="760" rx="42" fill="#111827"/>
+  <rect x="20" y="20" width="520" height="720" rx="32" fill="#f8fafc"/>
+  <rect x="46" y="70" width="220" height="18" rx="9" fill="#cbd5e1"/>
+  <text x="46" y="150" fill="#111827" font-family="Inter,Arial" font-size="38" font-weight="800">Product</text>
+  <text x="46" y="182" fill="#64748b" font-family="Inter,Arial" font-size="15">mobile interface / flow / UI</text>
+  <rect x="46" y="225" width="468" height="160" rx="26" fill="#e0f2fe"/>
+  <circle cx="170" cy="305" r="56" fill="#0f172a"/>
+  <rect x="265" y="278" width="200" height="18" rx="9" fill="#94a3b8"/><rect x="265" y="314" width="160" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="46" y="425" width="220" height="220" rx="28" fill="#f1f5f9"/><rect x="292" y="425" width="222" height="100" rx="28" fill="#ede9fe"/><rect x="292" y="545" width="222" height="100" rx="28" fill="#ecfeff"/>
+</g>
+<g transform="translate(1000 220) rotate(-4 230 280)">
+  <rect width="460" height="560" rx="34" fill="#fafafa"/>
+  <rect x="24" y="24" width="412" height="130" rx="24" fill="#111827"/>
+  <text x="48" y="80" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="800">BRAND SYSTEM</text>
+  <text x="48" y="112" fill="#a5b4fc" font-family="Inter,Arial" font-size="13" font-weight="600">logo / type / print / digital</text>
+  <circle cx="230" cy="300" r="96" fill="#f59e0b" opacity=".9"/><text x="230" y="330" fill="#111827" font-family="Inter,Arial" font-size="70" font-weight="800" text-anchor="middle">AV</text>
+  <rect x="60" y="440" width="340" height="18" rx="9" fill="#e2e8f0"/><rect x="60" y="474" width="260" height="14" rx="7" fill="#cbd5e1"/>
+</g>
+<g transform="translate(420 710)">
+  <rect width="880" height="170" rx="34" fill="#111827" opacity=".97"/>
+  <text x="44" y="58" fill="#94a3b8" font-family="Inter,Arial" font-size="14" font-weight="700" letter-spacing="2">MOTION / VIDEO</text>
+  <rect x="44" y="82" width="590" height="42" rx="21" fill="#1f2937"/>
+  <rect x="44" y="82" width="220" height="42" rx="21" fill="#7c3aed"/>
+  <circle cx="738" cy="103" r="30" fill="#fff"/><path d="M730 88 L730 118 L752 103 Z" fill="#111827"/>
+  <text x="660" y="138" fill="#cbd5e1" font-family="Inter,Arial" font-size="13">play reel</text>
+</g></svg>

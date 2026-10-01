@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru" class="bg-white dark:bg-[#0a0a0e] text-zinc-950 dark:text-zinc-50">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты — Александр Ванюшин</title>
+  <meta name="description" content="Связаться с Александром Ванюшиным по проекту.">
+  <meta property="og:title" content="Контакты — Александр Ванюшин">
+  <meta property="og:description" content="Связаться с Александром Ванюшиным по проекту.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] } } } };
+  </script>
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="min-h-screen bg-white text-zinc-950 antialiased transition-colors duration-300 dark:bg-[#0a0a0e] dark:text-zinc-50">
+
+<header class="fixed inset-x-0 top-0 z-50 border-b border-zinc-200/80 bg-white/85 backdrop-blur-xl dark:border-white/10 dark:bg-[#0a0a0e]/80">
+  <div class="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-5 sm:px-8">
+    <a href="index.html" class="group flex items-center gap-3" aria-label="Александр Ванюшин — главная">
+      <span class="grid h-10 w-10 place-items-center rounded-2xl bg-zinc-950 text-xs font-bold text-white transition-transform duration-300 group-hover:rotate-6 dark:bg-white dark:text-zinc-950">AV</span>
+      <span class="hidden sm:block leading-tight"><span class="block text-sm font-semibold">Александр Ванюшин</span><span class="block text-[11px] text-zinc-500 dark:text-zinc-400">Product &amp; UX/UI Designer</span></span>
+    </a>
+    <nav class="hidden items-center gap-7 lg:flex" aria-label="Основная навигация">
+      <a class="nav-link text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white" href="about.html">Обо мне</a>
+      <a class="nav-link text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white" href="projects.html">Кейсы</a>
+      <div class="relative" data-services-wrap>
+        <button type="button" data-services-toggle class="nav-link flex items-center gap-1 text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white" aria-haspopup="true">Услуги <span aria-hidden="true">⌄</span></button>
+        <div data-services-menu class="absolute right-0 top-11 hidden w-80 rounded-3xl border border-zinc-200 bg-white p-3 shadow-2xl shadow-zinc-900/10 dark:border-white/10 dark:bg-[#111118]">
+          <a href="services/product-cards.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Дизайн товарных карточек</a><a href="services/visual-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Визуальные макеты</a><a href="services/print-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Печатная продукция</a><a href="services/logo-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Логотипы и айдентика</a><a href="services/web-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Создание сайтов</a><a href="services/ux-ui.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">UX/UI дизайн</a><a href="services/motion-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Motion Design</a><a href="services/video-editing.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Монтаж видео</a>
+        </div>
+      </div>
+      <a class="nav-link text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white" href="skills.html">Навыки</a>
+      <a class="nav-link text-sm text-zinc-600 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white active" href="contact.html">Контакты</a>
+      <button data-theme-toggle class="theme-toggle grid h-10 w-10 place-items-center rounded-full border border-zinc-200 hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5" aria-label="Переключить тему">
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v2M12 19v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M3 12h2M19 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/><circle cx="12" cy="12" r="4"/></svg>
+      </button>
+    </nav>
+    <div class="flex items-center gap-2 lg:hidden">
+      <button data-theme-toggle class="theme-toggle grid h-10 w-10 place-items-center rounded-full border border-zinc-200 dark:border-white/10" aria-label="Переключить тему"><svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2"/></svg></button>
+      <button data-mobile-toggle aria-expanded="false" aria-controls="mobile-menu" class="grid h-10 w-10 place-items-center rounded-full border border-zinc-200 dark:border-white/10" aria-label="Открыть меню"><span class="text-lg">☰</span></button>
+    </div>
+  </div>
+  <div id="mobile-menu" data-mobile-panel class="hidden-panel absolute inset-x-0 top-[76px] border-b border-zinc-200 bg-white p-5 shadow-xl dark:border-white/10 dark:bg-[#0a0a0e] lg:hidden">
+    <div class="mx-auto max-w-7xl space-y-1">
+      <a href="about.html" class="block rounded-2xl px-4 py-3 font-medium hover:bg-zinc-100 dark:hover:bg-white/5">Обо мне</a>
+      <a href="projects.html" class="block rounded-2xl px-4 py-3 font-medium hover:bg-zinc-100 dark:hover:bg-white/5">Кейсы</a>
+      <div class="px-4 pb-2 pt-4 text-[11px] font-semibold uppercase tracking-[.2em] text-zinc-400">Услуги</div>
+      <a href="services/product-cards.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Дизайн товарных карточек</a><a href="services/visual-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Визуальные макеты</a><a href="services/print-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Печатная продукция</a><a href="services/logo-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Логотипы и айдентика</a><a href="services/web-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Создание сайтов</a><a href="services/ux-ui.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">UX/UI дизайн</a><a href="services/motion-design.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Motion Design</a><a href="services/video-editing.html" class="block rounded-2xl px-4 py-3 text-sm hover:bg-zinc-100 dark:hover:bg-white/5">Монтаж видео</a>
+      <a href="skills.html" class="block rounded-2xl px-4 py-3 font-medium hover:bg-zinc-100 dark:hover:bg-white/5">Навыки</a>
+      <a href="contact.html" class="block rounded-2xl px-4 py-3 font-medium hover:bg-zinc-100 dark:hover:bg-white/5">Контакты</a>
+    </div>
+  </div>
+</header>
+
+<main class="pt-[76px]"><section class="mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:py-28"><div class="grid gap-14 lg:grid-cols-[.85fr_1.15fr] lg:items-start"><div class="reveal"><div class="text-xs font-semibold uppercase tracking-[.2em] text-zinc-400">Contact</div><h1 class="mt-4 text-5xl font-bold tracking-tight sm:text-7xl">Давайте<br><span class="text-zinc-400 dark:text-zinc-500">обсудим.</span></h1><p class="mt-6 max-w-xl text-base leading-7 text-zinc-600 dark:text-zinc-300">Опишите задачу, желаемый результат и формат проекта. В ответ можно уточнить состав работ, сроки и формат взаимодействия.</p><div class="mt-8 flex flex-wrap gap-3"><a href="https://t.me/" target="_blank" rel="noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 text-sm hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Telegram</a><a href="https://www.behance.net/" target="_blank" rel="noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 text-sm hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Behance</a><a href="mailto:hello@example.com" class="rounded-full border border-zinc-200 px-4 py-2 text-sm hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Email</a></div></div><form data-contact-form class="reveal rounded-[34px] border border-zinc-200 bg-zinc-50 p-6 dark:border-white/10 dark:bg-white/[.035] sm:p-8"><div class="grid gap-5 sm:grid-cols-2"><label class="block"><span class="text-xs font-semibold text-zinc-500">Имя *</span><input name="name" class="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none transition focus:border-zinc-500 dark:border-white/10 dark:bg-[#111118]" placeholder="Ваше имя" required></label><label class="block"><span class="text-xs font-semibold text-zinc-500">Email *</span><input type="email" name="email" class="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none transition focus:border-zinc-500 dark:border-white/10 dark:bg-[#111118]" placeholder="you@example.com" required></label></div><label class="mt-5 block"><span class="text-xs font-semibold text-zinc-500">Тип проекта</span><select name="type" class="mt-2 w-full rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none dark:border-white/10 dark:bg-[#111118]"><option>Дизайн товарных карточек</option><option>UX/UI</option><option>Web Design</option><option>Branding</option><option>Motion</option><option>Video</option><option>Другое</option></select></label><label class="mt-5 block"><span class="text-xs font-semibold text-zinc-500">Сообщение *</span><textarea name="message" rows="7" class="mt-2 w-full resize-y rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none transition focus:border-zinc-500 dark:border-white/10 dark:bg-[#111118]" placeholder="Кратко опишите задачу…" required></textarea></label><div class="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"><button class="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white hover:-translate-y-0.5 dark:bg-white dark:text-zinc-950" type="submit">Отправить заявку</button><span data-form-status class="text-xs text-zinc-500"></span></div></form></div></section></main>
+<footer class="border-t border-zinc-200 dark:border-white/10">
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:px-8 md:grid-cols-2 md:items-end lg:grid-cols-3">
+    <div><div class="text-lg font-semibold">Александр Ванюшин</div><div class="mt-2 text-sm text-zinc-500 dark:text-zinc-400">Product &amp; UX/UI Designer</div></div>
+    <nav class="grid grid-cols-2 gap-x-8 gap-y-3 text-sm text-zinc-600 dark:text-zinc-300" aria-label="Footer navigation">
+      <a href="about.html" class="hover:text-zinc-950 dark:hover:text-white">Обо мне</a><a href="projects.html" class="hover:text-zinc-950 dark:hover:text-white">Кейсы</a>
+      <a href="skills.html" class="hover:text-zinc-950 dark:hover:text-white">Навыки</a><a href="contact.html" class="hover:text-zinc-950 dark:hover:text-white">Контакты</a>
+    </nav>
+    <div class="md:justify-self-end"><div class="flex flex-wrap gap-3 text-sm"><a href="https://www.behance.net/" target="_blank" rel="noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Behance</a><a href="https://t.me/" target="_blank" rel="noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Telegram</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer" class="rounded-full border border-zinc-200 px-4 py-2 hover:bg-zinc-100 dark:border-white/10 dark:hover:bg-white/5">Instagram</a></div></div>
+  </div>
+  <div class="mx-auto flex max-w-7xl flex-col gap-3 border-t border-zinc-200 px-5 py-5 text-xs text-zinc-400 dark:border-white/10 sm:flex-row sm:items-center sm:justify-between sm:px-8"><span>© <span data-year>2026</span> Alexander Vanyushin. All rights reserved.</span><button data-back-top class="hover:text-zinc-950 dark:hover:text-white">Наверх ↑</button></div>
+</footer>
+<script src="assets/js/main.js"></script></body></html>

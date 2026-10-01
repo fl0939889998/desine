@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+<rect width="900" height="1100" rx="56" fill="#0c0c13"/><circle cx="690" cy="200" r="190" fill="#7c3aed" opacity=".28"/><circle cx="220" cy="860" r="250" fill="#06b6d4" opacity=".18"/>
+<rect x="110" y="110" width="680" height="880" rx="40" fill="url(#g)" opacity=".22"/>
+<circle cx="450" cy="370" r="150" fill="#f0d0bd"/>
+<path d="M290 365c10-145 112-215 202-215 120 0 195 90 210 220-55-20-100-68-120-123-72 75-170 102-292 118z" fill="#1e1e24"/>
+<circle cx="398" cy="375" r="13" fill="#141419"/><circle cx="505" cy="375" r="13" fill="#141419"/>
+<path d="M415 455c28 23 55 23 82 0" stroke="#6b3f36" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M250 780c30-170 110-245 200-245s170 75 200 245" fill="#111118"/>
+<text x="110" y="930" fill="#fff" font-size="34" font-family="Arial" font-weight="700">ALEXANDER VANYUSHIN</text>
+<text x="110" y="975" fill="#fff" font-size="22" font-family="Arial" opacity=".68">Product &amp; UX/UI Designer</text>
+</svg>
